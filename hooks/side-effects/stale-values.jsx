@@ -1,6 +1,6 @@
 import React from "react";
 // Assume we have this component.
-function MediaPlayer({ src }) {
+function Counter({ src }) {
   const [count, setCount] = React.useState(0);
   React.useEffect(function increaseCount() {
     function handleKeyDown(event) {
